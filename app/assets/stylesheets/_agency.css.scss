@@ -6,7 +6,7 @@
 
 body {
   overflow-x: hidden;
-  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "brandonblk";
 }
 
 .text-muted {
@@ -281,7 +281,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
   margin-bottom: 25px;
-  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "brandonblk";
   font-size: 22px;
   font-style: italic;
   line-height: 22px;
@@ -290,7 +290,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
   margin-bottom: 25px;
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "brandonblk";
   font-size: 50px;
   font-weight: 700;
   line-height: 50px;
@@ -313,7 +313,7 @@ header .intro-text .intro-heading {
   header .intro-text .intro-heading {
     margin-bottom: 50px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "neutrabold";
     font-size: 75px;
     font-weight: 700;
     line-height: 75px;
@@ -333,10 +333,9 @@ section h2.section-heading {
 section h3.section-subheading {
   margin-bottom: 75px;
   text-transform: none;
-  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "brandonlight";
   font-size: 16px;
-  font-style: italic;
-  font-weight: 400;
+  // font-weight: 400;
 }
 
 @media(min-width:768px) {
@@ -859,4 +858,40 @@ img::-moz-selection {
 
 body {
   webkit-tap-highlight-color: #3cc8ff;
+}
+
+
+//Font Delcarations
+
+//Bebas Neue
+@font-face {
+  font-family: 'bebasneue';
+  src: url('BebasNeue.otf') format('opentype')
+}
+
+//Brandon Grotesque Black
+@font-face {
+  font-family: 'brandonblk';
+  src: url('brandon_blk-webfont.eot?#iefix') format('embedded-opentype'),
+  url('brandon_blk-webfont.woff') format('woff'),
+  url('brandon_blk-webfont.ttf')  format('truetype'),
+  url('brandon_blk-webfont.svg#svgFontName') format('svg');
+}
+
+//Brandon Grotesque Light
+@font-face {
+  font-family: 'brandonlight';
+  src: url('Brandon_light.otf') format('opentype')
+}
+
+//Neutra Text Bold
+@font-face {
+  font-family: 'neutrabold';
+  src: url('NeutraText-Bold.otf') format('opentype');
+}
+
+//Neutra Text Book
+@font-face {
+  font-family: 'neutrabook';
+  src: url('NeutraText-Book.otf') format('opentype');
 }

@@ -8,7 +8,3 @@ development:
 test:
   <<: *default
   database: vindi_test
-
-production:
-  <<: *default
-  database: vindi_production

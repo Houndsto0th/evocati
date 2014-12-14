@@ -60,7 +60,7 @@ h6 {
   margin: 0 auto;
 }
 
-.bg-light-gray {
+  .bg-light-gray {
   background-color: #f7f7f7;
 }
 
@@ -265,7 +265,7 @@ header {
   text-align: center;
   color: #fff;
   background-attachment: scroll;
-  background-image: url('Heroic-Imperator.png');
+  background: image-url('Heroic-Imperator.png');
   background-position: center center;
   background-repeat: none;
   -webkit-background-size: cover;

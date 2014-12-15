@@ -3,6 +3,8 @@ group :production do
   gem 'rails_12factor'
 end
 
+#facilitates HTTP requests
+gem 'faraday'
 # Autoprefixer recommended by Bootstrap -Hndth
 gem 'autoprefixer-rails'
 # Required by Bootstrap -Hndth
@@ -35,6 +37,13 @@ gem 'spring',        group: :development
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+
+group :development, :test do
+  gem 'capybara'
+  gem 'rspec-rails'
+  gem 'launchy'
+  gem 'pry-rails'
+end
 # Use unicorn as the app server
 # gem 'unicorn'
 

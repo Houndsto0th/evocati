@@ -3,6 +3,8 @@ group :production do
   gem 'rails_12factor'
 end
 
+#fucking hydras
+gem 'typhoeus', '~> 0.6.9'
 #facilitates HTTP requests
 gem 'faraday'
 # Autoprefixer recommended by Bootstrap -Hndth

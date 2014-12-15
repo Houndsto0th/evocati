@@ -26,10 +26,7 @@ class PagesController < ApplicationController
           {name: "Titandust", role: "DPS", class: "Warrior"},
     ]
 
-  # hydra = Typheous::Hydra.new
-  # @members.each.map do |member|
-  #   hydra.queue(Typheous::Request.new(WowAPI.new.get_character("http://us.battle.net/api/wow/character/Icecrown/#{member[:name]}", followlocation: true)))
-  # end
+  
 
   end
 

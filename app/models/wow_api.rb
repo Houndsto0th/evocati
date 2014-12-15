@@ -3,7 +3,7 @@ class WowAPI
     @conn = Faraday.new(url: 'http://us.battle.net')
   end
 
-  def getCharacter(character)
+  def get_character(character)
     response = @conn.get do |req|
       req.url "/api/wow/character/Icecrown/#{character}"
       req.headers['Content-Type'] = 'application/json'

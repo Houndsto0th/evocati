@@ -1,4 +1,4 @@
-function getCharacter(toonName,toonRealm) {
+function get_character(toonName,toonRealm) {
 
   if(!toonName || !toonRealm) {
     return ""

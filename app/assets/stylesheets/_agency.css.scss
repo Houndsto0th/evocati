@@ -901,7 +901,7 @@ body {
 //Neutra Text Bold
 @font-face {
   font-family: 'neutrabold';
-  src: url('NeutraText-Bold.otf') format('opentype');
+  src: asset-url('NeutraText-Bold.otf') format('opentype');
 }
 
 //Neutra Text Book

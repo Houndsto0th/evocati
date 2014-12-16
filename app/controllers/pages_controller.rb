@@ -13,7 +13,6 @@ class PagesController < ApplicationController
           {name: "Ihz", role: "Healer", class: "Paladin"},
           #DPS
           {name: "Arrow", role: "DPS", class: "Hunter"},
-          {name: "Bael", role: "DPS", class: "Warlock"},
           {name: "Cis", role: "DPS", class: "Warlock"},
           {name: "Hafbar", role: "DPS", class: "Hunter"},
           {name: "Ilzan", role: "DPS", class: "Rogue"},
@@ -26,7 +25,21 @@ class PagesController < ApplicationController
           {name: "Titandust", role: "DPS", class: "Warrior"},
     ]
 
-  
+    hydra = Typhoeus::Hydra.new
+    requests = @members.map {|member|
+      request = Typhoeus::Request.new(
+      "http://us.battle.net/api/wow/character/Icecrown/#{member[:name]}",
+      headers: {Accept: "application/json"},
+      )
+      hydra.queue(request)
+      request
+    }
+    hydra.run
+
+    @armory_responses = requests.map { |request|
+      JSON.parse(request.response.body)
+
+    }
 
   end
 

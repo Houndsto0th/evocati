@@ -8,6 +8,9 @@ Bundler.require(*Rails.groups)
 
 module Vindicatum
   class Application < Rails::Application
+    config.action_dispatch.default_headers = {
+      'X-Frame-Options' => 'ALLOWALL'
+    }
 
     config.assets.precompile << /\.(?:svg|eot|woff|ttf|otf)$/
     # Settings in config/environments/* take precedence over those specified here.

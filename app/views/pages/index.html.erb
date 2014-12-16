@@ -89,10 +89,40 @@
       </div>
     </div>
   </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class= "container">
+    <div class= "row">
+      <div>
+        <h4 class= "text-center" > Click to see our Twitch.tv streams  </h4>
+        <i class= "center-block btn-twitch"><%= image_tag 'Twitch_BlackLogo.png', class: 'img-centered img-responsive' %></i>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container stream-bin">
+    <div class="row">
+
+      <div class="col-md-6 col-sm-6">
+        <iframe class= "center-block" src="http://www.twitch.tv/tanned_priest/embed" frameborder="0" scrolling="no" height="189" width="310"></iframe><a href="http://www.twitch.tv/tanned_priest?tt_medium=live_embed&tt_content=text_link" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px;text-decoration:underline;"></a>
+      </div>
+      <div class="col-md-6 col-sm-6">
+        <a href="#">
+          <iframe class= "center-block" src="http://www.twitch.tv/gloomylumi/embed" frameborder="0" scrolling="no" height="189" width="310"></iframe><a href="http://www.twitch.tv/gloomylumi?tt_medium=live_embed&tt_content=text_link" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px;text-decoration:underline;"></a>
+        </a>
+      </div>
+
+    </div>
+  </div>
 </section>
 
+<!-- Stream Links / Online::Offline Indicators -->
+
+
 <!-- About Section -->
-<section id="about" class= "bg-light-gray">
+<section id="about" >
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -180,7 +210,7 @@
 </section>
 
 <!-- Team Section -->
-<section id="team" class="bg-light-gray">
+<section id="team" class= "bg-light-gray">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -210,57 +240,13 @@
   </section>
 
 
-  <!-- Stream Links / Online::Offline Indicators -->
-  <aside class="clients">
-    <div class="container">
-      <div class="row">
-        <p>
-          Stream Shit Goes Here.
-        </p>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <%= image_tag 'Twitch_BlackLogo.png', class: 'img-responsive img-centered' %>
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <%= image_tag 'Twitch_BlackLogo.png', class: 'img-responsive img-centered' %>
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <%= image_tag 'Twitch_BlackLogo.png', class: 'img-responsive img-centered' %>
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <%= image_tag 'Twitch_BlackLogo.png', class: 'img-responsive img-centered' %>
-          </a>
-        </div>
-      </div>
-    </div>
-  </aside>
 
-  <div class= "stream-bin">
-    <iframe src="http://www.twitch.tv/hounds_bdk/embed" frameborder="0" scrolling="no" height="189" width="310"></iframe><a href="http://www.twitch.tv/hounds_bdk?tt_medium=live_embed&tt_content=text_link" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px;text-decoration:underline;"></a>
-  </div>
   <footer>
     <div class="container">
       <div class="row">
         <div class="col-md-4">
           <span class="copyright">Copyright &copy; Vindicatum</span>
         </div>
-        <div class="col-md-4">
-          <ul class="list-inline social-buttons">
-            <li><a href="#"><i class="fa fa-facebook"></i></a>
-            </li>
-            <li><a href="#"><i class="btn-twitch"></i></a>
-            </li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-            </li>
-          </ul>
-        </div>
-
       </div>
     </div>
   </footer>

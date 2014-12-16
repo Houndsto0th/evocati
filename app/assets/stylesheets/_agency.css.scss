@@ -10,20 +10,11 @@ body {
 }
 
 .stream-bin {
-
+  display: none;
 }
 .btn-twitch {
-  display: block;
-  width: 90px;
-  height: 90px;
-  border-radius: 100%;
-  font-size: 20px;
-  line-height: 40px;
-  outline: 0;
-  color: #fff;
-  background-color: #222;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  height: 131px;
+  width: 396px
 }
 
 .text-muted {

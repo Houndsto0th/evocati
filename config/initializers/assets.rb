@@ -13,5 +13,7 @@ jqBootstrapValidation.js
 cbpAnimatedHeader.js
 jquery.js
 classie.js
-bootstrap.min.js)
+bootstrap.min.js
+bootstrap.js
+cbpAnimatedHeader.js)
 Rails.application.config.assets.precompile += js_files

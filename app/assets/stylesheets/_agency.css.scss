@@ -283,7 +283,7 @@ header {
 }
 
 header .intro-text {
-  padding-top: 100px;
+  // padding-top: 100px;
   padding-bottom: 50px;
 }
 
@@ -296,7 +296,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-  margin-bottom: 25px;
+  margin-bottom: 100px;
   text-transform: uppercase;
   font-family: "brandonblk";
   font-size: 50px;
@@ -306,8 +306,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
   header .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
+    padding-top: 125px;
+    padding-bottom: 500px;
   }
 
   header .intro-text .intro-lead-in {

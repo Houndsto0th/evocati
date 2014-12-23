@@ -191,6 +191,10 @@ fieldset[disabled] .btn-xl.active {
   color: #3cc8ff;
 }
 
+.navbar-default .logo-shrink {
+  -webkit-transform: scale(.5);
+}
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,

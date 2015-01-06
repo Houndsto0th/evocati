@@ -15,3 +15,29 @@
 //= require_tree .
 //= require bootstrap
 //= require bootstrap-sprockets
+$(document).ready(function(){
+  $(".btn-twitch").click(function(){
+    $(".stream-bin").toggle();
+    return false;
+  });
+});
+
+
+
+$(document).ready(function(){
+    var toggleImage = function(){
+      if ($("header").hasClass("kill1")){
+        $("header").removeClass("kill1").addClass("kill2")
+      }
+      else if($("header").hasClass("kill2")) {
+        $("header").removeClass("kill2").addClass("kill1")
+      }
+      // else if($("header").hasClass("kill3")) {
+      //   $("header").removeClass("kill3").addClass("kill1")
+      // }
+
+    }
+
+    setInterval(toggleImage, 7000);
+
+  });

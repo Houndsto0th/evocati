@@ -5,14 +5,7 @@
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag "application", media: 'all' %>
   <%= csrf_meta_tags %>
-  <script charset="utf-8">
-    $(document).ready(function(){
-      $(".btn-twitch").click(function(){
-        $(".stream-bin").toggle();
-        return false;
-      });
-    });
-  </script>
+
 </head>
 <body id="page-top" class="index">
 
@@ -31,7 +24,6 @@
       </div>
 
  <%= yield %>
-
 
       <!-- jQuery -->
       <%= javascript_include_tag "jquery.js" %>

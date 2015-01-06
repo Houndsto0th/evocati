@@ -20,11 +20,11 @@ $(document).ready(function(){
     $(".stream-bin").toggle();
     return false;
   });
-});
 
+  $('body').scrollspy({
+    target: '.navbar-fixed-top'
+  });
 
-
-$(document).ready(function(){
     var toggleImage = function(){
       if ($("header").hasClass("kill1")){
         $("header").removeClass("kill1").addClass("kill2")

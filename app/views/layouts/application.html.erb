@@ -4,7 +4,7 @@
   <title>Vindicatum</title>
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= csrf_meta_tags %>
-
+  <%= javascript_include_tag "application.js", media: 'all' %>
 </head>
 <body id="page-top" class="index">
 
@@ -25,7 +25,6 @@
  <%= yield %>
 
       <!-- jQuery -->
-      <%= javascript_include_tag "jquery.js" %>
       <!-- Bootstrap Core JavaScript -->
       <%= javascript_include_tag "bootstrap.min.js" %>
       <!-- Plugin JavaScript -->
@@ -35,7 +34,6 @@
       <!-- Contact Form JavaScript -->
       <!-- Custom Theme JavaScript -->
       <%= javascript_include_tag "agency.js" %>
-      <%= javascript_include_tag "vindiroster.js" %>
-      <%= javascript_include_tag "application.js", media: 'all' %>
+
     </body>
     </html>

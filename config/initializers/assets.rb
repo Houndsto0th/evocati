@@ -8,8 +8,6 @@ Rails.application.config.assets.version = '1.0'
 js_files = %w(
 vindiroster.js
 agency.js
-contact_me.js
-jqBootstrapValidation.js
 cbpAnimatedHeader.js
 jquery.js
 classie.js

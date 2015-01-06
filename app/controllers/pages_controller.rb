@@ -6,7 +6,6 @@ class PagesController < ApplicationController
     {name:"Twobeers", role: "Tank", class: "Monk", warlogs: "2930"},
     #Healers
     {name: "Jurik", role: "Healer", class: "Druid", warlogs: "2936"},
-    {name: "Espressomonk", role: "Healer", class: "Monk", warlogs: "671312"},
     {name: "Farore", role: "Healer", class: "Shaman", warlogs: "941326"},
     {name: "Gimpybroseph", role: "Healer", class: "Priest", warlogs: "540780"},
     {name: "Ihz", role: "Healer", class: "Paladin", warlogs: "326466"},

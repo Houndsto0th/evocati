@@ -6,7 +6,6 @@ Rails.application.config.assets.version = '1.0'
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 js_files = %w(
-application.js
 vindiroster.js
 agency.js
 contact_me.js
@@ -17,5 +16,5 @@ classie.js
 bootstrap.min.js
 bootstrap.js
 cbpAnimatedHeader.js
-)
+application.js)
 Rails.application.config.assets.precompile += js_files

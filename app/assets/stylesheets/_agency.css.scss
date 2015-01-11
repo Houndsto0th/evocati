@@ -314,7 +314,15 @@ header {
 }
 
 .kill3 {
-
+  background: image-url('brackenspore.png');
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  transition: background .5s ease;
 }
 
 header .intro-text {

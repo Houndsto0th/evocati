@@ -30,11 +30,11 @@ $(document).ready(function(){
         $("header").removeClass("kill1").addClass("kill2")
       }
       else if($("header").hasClass("kill2")) {
-        $("header").removeClass("kill2").addClass("kill1")
+        $("header").removeClass("kill2").addClass("kill3")
       }
-      // else if($("header").hasClass("kill3")) {
-      //   $("header").removeClass("kill3").addClass("kill1")
-      // }
+      else if($("header").hasClass("kill3")) {
+        $("header").removeClass("kill3").addClass("kill1")
+      }
 
     }
 

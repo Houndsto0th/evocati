@@ -8,9 +8,11 @@ class PagesController < ApplicationController
     {name: "Jurik", role: "Healer", class: "Druid", warlogs: "2936"},
     {name: "Farore", role: "Healer", class: "Shaman", warlogs: "941326"},
     {name: "Gimpybroseph", role: "Healer", class: "Priest", warlogs: "540780"},
-    {name: "Ihz", role: "Healer", class: "Paladin", warlogs: "326466"},
+    {name: "Sepa", role: "Healer", class: "Paladin", warlogs: "9432"},
+
     #DPS
     {name: "Arrow", role: "DPS", class: "Hunter", warlogs: "807868"},
+    {name: "Tanned", role: "DPS", class: "Priest", warlogs: "2929"},
     {name: "Cis", role: "DPS", class: "Warlock", warlogs: "2928"},
     {name: "Hafbar", role: "DPS", class: "Hunter", warlogs: "574705"},
     {name: "Ilzan", role: "DPS", class: "Rogue", warlogs: "87885"},

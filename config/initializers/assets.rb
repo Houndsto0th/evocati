@@ -10,6 +10,7 @@ agency.js
 cbpAnimatedHeader.js
 jquery.js
 classie.js
+bootstrap.min.js
 bootstrap.js
 cbpAnimatedHeader.js
 application.js)

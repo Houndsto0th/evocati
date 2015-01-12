@@ -14,7 +14,6 @@ class PagesController < ApplicationController
     {name: "Arrow", role: "DPS", class: "Hunter", warlogs: "807868"},
     {name: "Tanned", role: "DPS", class: "Priest", warlogs: "2929"},
     {name: "Cis", role: "DPS", class: "Warlock", warlogs: "2928"},
-    {name: "Hafbar", role: "DPS", class: "Hunter", warlogs: "574705"},
     {name: "Ilzan", role: "DPS", class: "Rogue", warlogs: "87885"},
     {name: "Ippon", role: "DPS", class: "Rogue", warlogs: "326467"},
     {name: "Keirimath", role: "DPS", class: "Paladin", warlogs: "2935"},

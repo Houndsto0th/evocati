@@ -325,6 +325,18 @@ header {
   transition: background .5s ease;
 }
 
+.kill4 {
+  background: image-url('Butcher.png');
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  transition: background .5s ease;
+}
+
 header .intro-text {
   // padding-top: 100px;
   padding-bottom: 50px;

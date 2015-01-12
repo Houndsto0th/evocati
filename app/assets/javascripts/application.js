@@ -41,6 +41,6 @@ $(document).ready(function(){
 
     }
 
-    setInterval(toggleImage, 7000);
+    setInterval(toggleImage, 9000);
 
   });

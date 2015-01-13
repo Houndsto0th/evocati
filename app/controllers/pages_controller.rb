@@ -4,8 +4,8 @@ class PagesController < ApplicationController
     {name:"Houndstooth", role: "Tank", class: "DK", warlogs: "2932", rank: "Officer", tag: "Houndstooth#1724"},
     {name:"Neurf", role: "Tank", class: "Warrior", warlogs: "925912", rank: "Officer", tag: "Contact in game"},
     {name:"Twobeers", role: "Tank", class: "Monk", warlogs: "2930", rank: "Officer", tag: "Contact in game"},
-    {name: "Sepa", role: "Healer", class: "Paladin", warlogs: "9432", rank: "Officer", tag: "Contact in game"},
-    {name: "Jurik", role: "Healer", class: "Druid", warlogs: "2936", rank: "Officer", tag: "Contact in game"},
+    {name: "Sepa", role: "Healer", class: "Paladin", warlogs: "9432", rank: "Officer", tag: "Sep#1884"},
+    {name: "Jurik", role: "Healer", class: "Druid", warlogs: "2936", rank: "Officer", tag: "Aurik#1478"},
   ]
 
   MEMBERS = [

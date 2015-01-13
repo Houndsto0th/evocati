@@ -25,8 +25,8 @@ class PagesController < ApplicationController
   ]
 
   def index
-    @members = MEMBERS
-    @armory_responses = WowAPI.new.get_characters(MEMBERS)
+    # @members = MEMBERS
+    # @armory_responses = WowAPI.new.get_characters(MEMBERS)
 
     #faraday request
     # @members.each do |member|

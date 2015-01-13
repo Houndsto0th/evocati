@@ -1,11 +1,11 @@
 class PagesController < ApplicationController
   OFFICERS = [
-    {name: "Tanned - GM", role: "DPS", class: "Priest", warlogs: "2929", rank: "GM"},
-    {name:"Houndstooth", role: "Tank", class: "DK", warlogs: "2932", rank: "Officer"},
-    {name:"Neurf", role: "Tank", class: "Warrior", warlogs: "925912", rank: "Officer"},
-    {name:"Twobeers", role: "Tank", class: "Monk", warlogs: "2930", rank: "Officer"},
-    {name: "Sepa", role: "Healer", class: "Paladin", warlogs: "9432", rank: "Officer"},
-    {name: "Jurik", role: "Healer", class: "Druid", warlogs: "2936", rank: "Officer"},
+    {name: "Tanned - GM", role: "DPS", class: "Priest", warlogs: "2929", rank: "GM", tag: "Tan#1393"},
+    {name:"Houndstooth", role: "Tank", class: "DK", warlogs: "2932", rank: "Officer", tag: "Houndstooth#1724"},
+    {name:"Neurf", role: "Tank", class: "Warrior", warlogs: "925912", rank: "Officer", tag: "Contact in game"},
+    {name:"Twobeers", role: "Tank", class: "Monk", warlogs: "2930", rank: "Officer", tag: "Contact in game"},
+    {name: "Sepa", role: "Healer", class: "Paladin", warlogs: "9432", rank: "Officer", tag: "Contact in game"},
+    {name: "Jurik", role: "Healer", class: "Druid", warlogs: "2936", rank: "Officer", tag: "Contact in game"},
   ]
 
   MEMBERS = [

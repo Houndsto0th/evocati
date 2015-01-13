@@ -58,7 +58,9 @@
             We do on a strict 3 day schedule what most guilds try to accomplish in 4 or 5. On fewer hours.
             We like playing games together and our core member group has been established since Vanilla.
             We always welcome people who adhere to our philosophy and mindset and look for exceptional players to join us in our progression pushes.
-            Head over to our about+application page if you're interested in joining us.
+            Head over to our
+            <a href="http://forums.vindicatum.com/viewforum.php?f=5&sid=6674f2b2e3e38f52eb6d4c1acc81e429">about+application</a>
+            forum if you're interested in joining us.
           </p>
         </h3>
       </div>
@@ -247,12 +249,36 @@
         <h3 class="section-subheading text-muted">Armory links on the left WarcraftLogs on the right.</h3>
       </div>
     </div>
-    <div class="row text-center">
+    <div class="col-lg-12 text-center">
+      <h3 class="section-heading">Officers</h3>
+    </div>
       <!--each loop here -->
+      <% @officers.each do |officer| %>
+      <div class="col-sm-4">
+        <div class="team-member">
+          <h4><%= officer[:name] %></h4>
+          <p class="text-muted"><%= officer[:role] %></p>
+          <ul class="list-inline social-buttons">
+            <li><a href='http://us.battle.net/wow/en/character/icecrown/<%= officer[:name] %>/advanced'><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li><%= image_tag "#{officer[:class]}.ico", class: "img-roster" %></a>
+            </li>
+            <li><a href='https://www.warcraftlogs.com/rankings/character/<%= officer[:warlogs] %>/latest'><i class="fa fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <% end %>
+      <br>
+      <br>
+      <br>
+      <div class="col-lg-12 text-center">
+        <h3 class="section-heading">Members</h3>
+      </div>
       <% @members.each do |member| %>
       <div class="col-sm-4">
         <div class="team-member">
-          <h3><%= member[:name] %></h3>
+          <h4><%= member[:name] %></h4>
           <p class="text-muted"><%= member[:role] %></p>
           <ul class="list-inline social-buttons">
             <li><a href='http://us.battle.net/wow/en/character/icecrown/<%= member[:name] %>/advanced'><i class="fa fa-linkedin"></i></a>

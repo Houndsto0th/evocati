@@ -1,34 +1,38 @@
 class PagesController < ApplicationController
-  OFFICERS = [
-    {name: "Tanned - GM", role: "DPS", class: "Priest", warlogs: "2929", rank: "GM", tag: "Tan#1393"},
-    {name:"Houndstooth", role: "Tank", class: "DK", warlogs: "2932", rank: "Officer", tag: "Houndstooth#1724"},
-    {name:"Neurf", role: "Tank", class: "Warrior", warlogs: "925912", rank: "Officer", tag: "Contact in game"},
-    {name:"Twobeers", role: "Tank", class: "Monk", warlogs: "2930", rank: "Officer", tag: "Contact in game"},
-    {name: "Sepa", role: "Healer", class: "Paladin", warlogs: "9432", rank: "Officer", tag: "Sep#1884"},
-    {name: "Jurik", role: "Healer", class: "Druid", warlogs: "2936", rank: "Officer", tag: "Aurik#1478"},
+  TANKS = [
+    {name: "Marrcus", spec: "Blood", class: "DK", warlogs: "658789", realm: "malygos"},
+    {name: "Dizeased", spec: "Blood", class: "DK", warlogs: "", realm: ""}
   ]
 
-  MEMBERS = [
-    #Healers
-    {name: "Farore", role: "Healer", class: "Shaman", warlogs: "941326", rank: "Member"},
-    {name: "Gimpybroseph", role: "Healer", class: "Priest", warlogs: "540780", rank: "Member"},
-    {name: "Luminoire", role: "Healer", class: "Priest", warlogs: "236300", rank: "Member"},
+  HEALERS = [
+    {name: "Iberia", spec: "Holy", class: "Paladin", warlogs: "571964", realm: "icecrown"},
+    {name: "Kimchii", spec: "Mistwalker", class: "Monk", warlogs: "118570", realm: "icecrown"},
+    {name: "Italiann", spec: "Restoration", class: "Druid", warlogs: "", realm: ""},
+    {name: "Lones", spec: "Restoration", class: "Druid", warlogs: "", realm: ""},
+    {name: "Cuppycakez", spec: "Discipline", class: "Priest", warlogs: "996352", realm: "icecrown"}
 
-    #DPS
-    {name: "Arrow", role: "DPS", class: "Hunter", warlogs: "807868", rank: "Member"},
-    {name: "Cis", role: "DPS", class: "Warlock", warlogs: "2928", rank: "Member"},
-    {name: "Ilzan", role: "DPS", class: "Rogue", warlogs: "87885", rank: "Member"},
-    {name: "Ippon", role: "DPS", class: "Rogue", warlogs: "326467", rank: "Member"},
-    {name: "Keirimath", role: "DPS", class: "Paladin", warlogs: "2935", rank: "Member"},
-    {name: "Kinoble", role: "DPS", class: "Druid", warlogs: "4714", rank: "Member"},
-    {name: "Paleaura", role: "DPS", class: "DK", warlogs: "204050", rank: "Member"},
-    {name: "Powerwaddle", role: "DPS", class: "Paladin", warlogs: "509481", rank: "Member"},
-    {name: "Titandust", role: "DPS", class: "Warrior", warlogs: "972145", rank: "Member"},
+  ]
+
+  DPS = [
+    {name: "Donekin", spec: "Survival", class: "Hunter", warlogs: "2104073", realm: "icecrown"},
+    {name: "Sauma", spec: "Marksman", class: "Hunter", warlogs: "1015266", realm: "malygos"},
+    {name: "Katharla", spec: "Survival", class: "Hunter", warlogs: "425855", realm: "icecrown"},
+    {name: "Bec", spec: "Combat", class: "Rogue", warlogs: "941149", realm: "malygos"},
+    {name: "Gnomlicious", spec: "Arcane", class: "Mage", warlogs: "996346", realm: "icecrown"},
+    {name: "Aryel", spec: "Frost", class: "Mage", warlogs: "781013", realm: "malygos"},
+    {name: "Ogspokes", spec: "Retribution", class: "Paladin", warlogs: "2530", realm: "icecrown"},
+    {name: "Nakedwarrior", spec: "Fury", class: "Warrior", warlogs: "326615", realm: "icecrown"},
+    {name: "Slumber", spec: "Fury", class: "Warrior", warlogs: "887307", realm: "icecrown"},
+    {name: "Dreamsteak", spec: "Enhancement", class: "Shaman", warlogs: "6355612", realm: "icecrown"},
+    {name: "Alisu", spec: "Feral", class: "Druid", warlogs: "2529", realm: "icecrown"},
+    {name: "Oomtree", spec: "Balance", class: "Druid", warlogs: "441772", realm: "icecrown"},
+    {name: "Vixia", spec: "Balance", class: "Druid", warlogs: "712247", realm: "icecrown"},
   ]
 
   def index
-    @officers = OFFICERS
-    @members = MEMBERS
+    @tanks = TANKS
+    @healers = HEALERS
+    @dps = DPS
     # @armory_responses = WowAPI.new.get_characters(MEMBERS)
 
     #faraday request

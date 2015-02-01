@@ -6,7 +6,7 @@
 
 body {
   overflow-x: hidden;
-  font-family: "brandonblk";
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .stream-bin {
@@ -22,7 +22,7 @@ body {
 }
 
 .text-primary {
-  color: #3cc8ff;
+  color: #f01616;
 }
 
 p {
@@ -43,14 +43,14 @@ a.active {
 }
 
 a {
-  color: #3cc8ff;
+  color: #f01616;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #3cc8ff;
+  color: #f01616;
 }
 
 h1,
@@ -60,7 +60,7 @@ h4,
 h5,
 h6 {
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Trajan";
   font-weight: 700;
 }
 
@@ -81,12 +81,12 @@ h6 {
 }
 
 .btn-primary {
-  border-color: #3cc8ff;
+  border-color: #f01616;
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
   color: #fff;
-  background-color: #3cc8ff;
+  background-color: #f01616;
 }
 
 .btn-primary:hover,
@@ -96,7 +96,7 @@ h6 {
 .open .dropdown-toggle.btn-primary {
   border-color: #f6bf01;
   color: #fff;
-  background-color: #3cc8ff;
+  background-color: #f01616;
 }
 
 .btn-primary:active,
@@ -120,18 +120,18 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  border-color: #3cc8ff;
-  background-color: #3cc8ff;
+  border-color: #f01616;
+  background-color: #f01616;
 }
 
 .btn-primary .badge {
-  color: #3cc8ff;
+  color: #f01616;
   background-color: #fff;
 }
 
 .btn-xl {
   padding: 20px 40px;
-  border-color: #3cc8ff;
+  border-color: #f01616;
   border-radius: 3px;
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -148,7 +148,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
   border-color: #fff;
   color: #fff;
-  background-color: #3cc8ff;
+  background-color: #f01616;
 }
 
 .btn-xl:active,
@@ -172,12 +172,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  border-color: #3cc8ff;
-  background-color: #3cc8ff;
+  border-color: #f01616;
+  background-color: #f01616;
 }
 
 .btn-xl .badge {
-  color: #3cc8ff;
+  color: #f01616;
   background-color: #fff;
 }
 
@@ -188,7 +188,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
   font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-  color: #3cc8ff;
+  color: #f01616;
 }
 
 .navbar-default .logo-shrink {
@@ -199,7 +199,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-  color: #3cc8ff;
+  color: #f01616;
 }
 
 .navbar-default .navbar-collapse {
@@ -207,8 +207,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-  border-color: #3cc8ff;
-  background-color: #3cc8ff;
+  border-color: #f01616;
+  background-color: #f01616;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -217,7 +217,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #3cc8ff;
+  background-color: #f01616;
 }
 
 .navbar-default .nav li a {
@@ -231,19 +231,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
   outline: 0;
-  color: #3cc8ff;
+  color: #f01616;
 }
 
 .navbar-default .navbar-nav>.active>a {
   border-radius: 0;
   color: #fff;
-  background-color: #3cc8ff;
+  background-color: #f01616;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
   color: #fff;
-  background-color: #3cc8ff;
+  background-color: #f01616;
 }
 
 @media(min-width:768px) {
@@ -263,6 +263,7 @@ fieldset[disabled] .btn-xl.active {
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
+    margin-top: -40px;
   }
 
   .navbar-default .navbar-nav>.active>a {
@@ -271,11 +272,12 @@ fieldset[disabled] .btn-xl.active {
 
   .navbar-default.navbar-shrink {
     padding: 10px 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(47, 47, 47, 0.81);
     -webkit-transition: background 1s;
     -moz-transition: background 1s;
     -o-transition: background 1s;
     transition: background 0.5s;
+
 
   }
 
@@ -290,7 +292,7 @@ header {
 }
 
 .kill1 {
-  background: image-url('twins.jpg');
+  background: image-url('screenshot1.jpg');
   background-attachment: fixed;
   background-position: center center;
   background-repeat: none;
@@ -302,7 +304,7 @@ header {
 }
 
 .kill2 {
-  background: image-url('tectus.jpg');
+  background: image-url('screenshot2.jpg');
   background-attachment: fixed;
   background-position: center center;
   background-repeat: none;
@@ -314,7 +316,7 @@ header {
 }
 
 .kill3 {
-  background: image-url('brackenspore.jpg');
+  background: image-url('');
   background-attachment: fixed;
   background-position: center center;
   background-repeat: none;
@@ -326,7 +328,7 @@ header {
 }
 
 .kill4 {
-  background: image-url('Butcher.jpg');
+  background: image-url('');
   background-attachment: fixed;
   background-position: center center;
   background-repeat: none;
@@ -344,7 +346,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
   margin-bottom: 25px;
-  font-family: "brandonblk";
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 22px;
   font-style: italic;
   line-height: 22px;
@@ -353,7 +355,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
   margin-bottom: 15px;
   text-transform: uppercase;
-  font-family: "brandonblk";
+  font-family: "Trajan";
   font-size: 50px;
   font-weight: 700;
   line-height: 50px;
@@ -376,7 +378,7 @@ header .intro-text .intro-heading {
   header .intro-text .intro-heading {
     margin-bottom: 15px;
     text-transform: uppercase;
-    font-family: "neutrabold";
+    font-family: "Trajan";
     font-size: 75px;
     font-weight: 700;
     line-height: 75px;
@@ -396,7 +398,7 @@ section h2.section-heading {
 section h3.section-subheading {
   margin-bottom: 75px;
   text-transform: none;
-  font-family: "brandonlight";
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 16px;
   // font-weight: 400;
 }
@@ -478,7 +480,7 @@ section h3.section-subheading {
   border-radius: 100%;
   text-align: center;
   color: #fff;
-  background-color: #3cc8ff;
+  background-color: #f01616;
 }
 
 .timeline>li .timeline-image h4 {
@@ -612,6 +614,10 @@ section h3.section-subheading {
   }
 }
 
+.centered {
+  margin: 0 auto;
+}
+
 .team-member {
   margin-bottom: 50px;
   text-align: center;
@@ -692,7 +698,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #3cc8ff;
+  background-color: #f01616;
 }
 
 .btn:focus,
@@ -775,12 +781,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
   text-shadow: none;
-  background: #3cc8ff;
+  background: #f01616;
 }
 
 ::selection {
   text-shadow: none;
-  background: #3cc8ff;
+  background: #f01616;
 }
 
 img::selection {
@@ -792,7 +798,7 @@ img::-moz-selection {
 }
 
 body {
-  webkit-tap-highlight-color: #3cc8ff;
+  webkit-tap-highlight-color: #f01616;
 }
 
 #about {
@@ -832,4 +838,9 @@ body {
 @font-face {
   font-family: 'neutrabook';
   src: asset-url('NeutraText-Book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'trajan';
+  src: asset-url('Trajan_Pro_Regular.ttf') format('opentype');
 }

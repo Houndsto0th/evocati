@@ -1,14 +1,14 @@
 class PagesController < ApplicationController
   TANKS = [
     {name: "Marrcus", spec: "Blood", class: "DK", warlogs: "658789", realm: "malygos"},
-    {name: "Dizeased", spec: "Blood", class: "DK", warlogs: "", realm: ""}
+    {name: "Dizeased", spec: "Blood", class: "DK", warlogs: "2410527", realm: "icecrown"}
   ]
 
   HEALERS = [
     {name: "Iberia", spec: "Holy", class: "Paladin", warlogs: "571964", realm: "icecrown"},
     {name: "Kimchii", spec: "Mistwalker", class: "Monk", warlogs: "118570", realm: "icecrown"},
-    {name: "Italiann", spec: "Restoration", class: "Druid", warlogs: "", realm: ""},
-    {name: "Lones", spec: "Restoration", class: "Druid", warlogs: "", realm: ""},
+    {name: "Italliann", spec: "Restoration", class: "Druid", warlogs: "5735834", realm: "icecrown"},
+    {name: "Lones", spec: "Restoration", class: "Druid", warlogs: "6230057", realm: "icecrown"},
     {name: "Cuppycakez", spec: "Discipline", class: "Priest", warlogs: "996352", realm: "icecrown"}
 
   ]

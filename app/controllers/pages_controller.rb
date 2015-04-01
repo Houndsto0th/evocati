@@ -1,8 +1,7 @@
 class PagesController < ApplicationController
 
   TANKS = [
-
-    {name: "Dizeased", spec: "Blood", class: "DK", warlogs: "2410527", realm: "icecrown"}
+    {name: "Dizeased", spec: "Blood", class: "DK", warlogs: "2410527", realm: "icecrown"},
     {name: "Sorahka", spec: "Brewmaster", class: "Monk", warlogs: "7559026", realm: "icecrown"},
   ]
 

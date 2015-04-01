@@ -8,7 +8,7 @@ class PagesController < ApplicationController
   HEALERS = [
     {name: "Alexiistexas", spec: "Restoration", class: "Shaman", warlogs: "941150", realm: "icecrown"},
     {name: "Cerinez", spec: "Holy", class: "Priest", warlogs: "7829139", realm: "icecrown"},
-    {name: "Cuppycakez", spec: "Discipline", class: "Priest", warlogs: "996352", realm: "icecrown"}
+    {name: "Cuppycakez", spec: "Discipline", class: "Priest", warlogs: "996352", realm: "icecrown"},
     {name: "Iberia", spec: "Holy", class: "Paladin", warlogs: "571964", realm: "icecrown"},
 
   ]
